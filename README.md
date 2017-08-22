@@ -1,3 +1,27 @@
+# Test
+
+Build environment: `conda env create -f environment.yml`.
+Run tests: `python test_all.py`.
+
+Test results on Dell laptop: 
+```
+...
+Ran 232 tests in 2.802s
+```
+
+Note:
+
+Python version is 3.4 according to section "What you need for this book" in preface:
+
+> You will need to have Python 3.3 or 3.4 installed and running.
+
+For PIL is incompatible with Python 3.4, [Pillow](https://github.com/python-pillow/Pillow)
+is used instead.
+
+------
+
+Original *Readme.txt*:
+
 How to Execute the Code:
 
 1) Extract the Code Bundle at your desired location
